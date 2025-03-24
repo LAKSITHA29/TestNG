@@ -20,6 +20,7 @@ public class AssertDemo {
 	  String expectedTitle="Google"; 
 	  String actual=driver.getTitle();
 	  Assert.assertEquals(expectedTitle, actual);
+	  System.out.println(driver.getTitle());
 	  
   }
   @BeforeTest
